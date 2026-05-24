@@ -11,6 +11,20 @@ Advice**.
 
 ---
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Main chat + graph view](screenshots/01-overview.png) | ![Trace animation moment](screenshots/02-trace-animation.png) |
+| Chat + retrieved subgraph side by side | A reasoning hop highlighted mid-trace |
+| ![Retrieval inspector](screenshots/03-inspector.png) | ![A different query, different subgraph](screenshots/04-second-query.png) |
+| Inspector — flat ↔ graph comparison | A different query, different subgraph |
+
+See [`screenshots/README.md`](screenshots/README.md) for the exact
+state each shot is captured in.
+
+---
+
 ## Problem statement
 
 Generative tax assistants typically run plain RAG: chunk a legal corpus,
