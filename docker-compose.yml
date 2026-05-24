@@ -1,0 +1,30 @@
+# One-shot reproduction setup for the Taxxa graph demo.
+#
+# Usage:
+#   cp .env.example .env       # optionally edit and add API keys
+#   docker compose up --build
+#
+# Then open http://localhost:3000.
+#
+# API keys are optional. With an empty .env the app still runs end-to-end
+# using local hashed embeddings + canned per-intent answers. Adding
+# VOYAGE_API_KEY / ANTHROPIC_API_KEY swaps in real Voyage retrieval and
+# Sonnet 4.6 generation respectively — silently, with the same UI.
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: taxxa-graph-demo:latest
+    container_name: taxxa-graph-demo
+    ports:
+      - "3000:3000"
+    # Forward optional API keys into the container at runtime. Marked
+    # required: false so the demo still runs with `docker compose up`
+    # even before `cp .env.example .env` — every key is optional and the
+    # app falls back to local embeddings + canned answers when unset.
+    env_file:
+      - path: .env
+        required: false
+    restart: unless-stopped

@@ -1,0 +1,386 @@
+{
+  "nodes": [
+    {
+      "id": "AVL",
+      "type": "Law",
+      "label": "Arvonlisäverolaki",
+      "text": "Arvonlisäverolaki (1501/1993) sääntelee tavaroiden ja palvelujen myynnistä suoritettavaa arvonlisäveroa Suomessa.",
+      "aliases": "Finnish VAT Act value added tax law 1501/1993",
+      "authority": "law",
+      "position": { "x": 490, "y": 210 }
+    },
+    {
+      "id": "AVL-1",
+      "type": "Section",
+      "label": "AVL § 1",
+      "text": "Arvonlisäveroa suoritetaan tämän lain mukaan liiketoiminnan muodossa Suomessa tapahtuvasta tavaran ja palvelun myynnistä sekä Suomessa tapahtuvasta yhteisöhankinnasta ja maahantuonnista.",
+      "aliases": "general VAT applicability scope sales in Finland goods services obligation",
+      "authority": "law",
+      "position": { "x": 200, "y": 310 }
+    },
+    {
+      "id": "AVL-2",
+      "type": "Section",
+      "label": "AVL § 2",
+      "text": "Velvollinen suorittamaan arvonlisäveroa 1 §:ssä tarkoitetusta myynnistä on tavaran tai palvelun myyjä, jollei 2 a, 8 a–8 d tai 9 §:ssä toisin säädetä.",
+      "aliases": "seller liability obligation who pays the VAT taxable person definition",
+      "authority": "law",
+      "position": { "x": 340, "y": 310 }
+    },
+    {
+      "id": "AVL-3",
+      "type": "Section",
+      "label": "AVL § 3",
+      "text": "Myyjä ei ole verovelvollinen, jos tilikauden liikevaihto on enintään 15 000 euroa, ellei häntä ole oman ilmoituksen perusteella merkitty verovelvolliseksi.",
+      "aliases": "small business VAT threshold exemption 15000 euros liikevaihto turnover pienyrittäjä",
+      "authority": "law",
+      "position": { "x": 490, "y": 310 }
+    },
+    {
+      "id": "AVL-3-v2",
+      "type": "Section",
+      "label": "AVL § 3 (v2)",
+      "text": "Myyjä ei ole verovelvollinen, jos tilikauden liikevaihto on enintään 20 000 euroa, ellei häntä ole oman ilmoituksen perusteella merkitty verovelvolliseksi.",
+      "aliases": "small business VAT threshold amended 20000 euros 2026 update",
+      "authority": "law",
+      "version": 2,
+      "effectiveFrom": "2026-07-01",
+      "position": { "x": 490, "y": 310 },
+      "hidden": true
+    },
+    {
+      "id": "AVL-63",
+      "type": "Section",
+      "label": "AVL § 63",
+      "text": "Tavara on myyty Suomessa, jos tavara on Suomessa, kun se luovutetaan ostajalle tai kun kuljetus ostajalle alkaa.",
+      "aliases": "goods place of supply Finland delivery sales location tavara myyntimaa",
+      "authority": "law",
+      "position": { "x": 640, "y": 310 }
+    },
+    {
+      "id": "AVL-65",
+      "type": "Section",
+      "label": "AVL § 65",
+      "text": "Elinkeinonharjoittajalle luovutettu palvelu on myyty Suomessa, jos se luovutetaan ostajan täällä sijaitsevaan kiinteään toimipaikkaan. Jos palvelua ei luovuteta kiinteään toimipaikkaan, se on myyty Suomessa, jos ostajan kotipaikka on täällä.",
+      "aliases": "B2B services place of supply business consulting cross-border reverse charge freelancer German Germany invoice invoicing foreign company abroad consultant palvelun myyntimaa elinkeinonharjoittaja",
+      "authority": "law",
+      "position": { "x": 280, "y": 420 }
+    },
+    {
+      "id": "AVL-66",
+      "type": "Section",
+      "label": "AVL § 66",
+      "text": "Kiinteistöön kohdistuva palvelu on myyty Suomessa, jos kiinteistö sijaitsee täällä.",
+      "aliases": "real estate property services place of supply kiinteistöpalvelu",
+      "authority": "law",
+      "position": { "x": 420, "y": 420 }
+    },
+    {
+      "id": "AVL-69",
+      "type": "Section",
+      "label": "AVL § 69",
+      "text": "Muulle kuin elinkeinonharjoittajalle luovutettu sähköinen palvelu on myyty Suomessa, jos ostaja on sijoittautunut Suomeen tai hänen kotipaikkansa on täällä.",
+      "aliases": "electronic digital software apps streaming B2C consumer sähköiset palvelut place of supply",
+      "authority": "law",
+      "position": { "x": 560, "y": 420 }
+    },
+    {
+      "id": "AVL-102",
+      "type": "Section",
+      "label": "AVL § 102",
+      "text": "Verovelvollinen saa vähentää verollista liiketoimintaa varten toiselta verovelvolliselta ostamastaan tavarasta tai palvelusta suoritettavan veron taikka ostosta 8 a–8 c tai 9 §:n perusteella suoritettavan veron.",
+      "aliases": "input VAT deduction right general rule business purchase taxable supply ostovähennys",
+      "authority": "law",
+      "position": { "x": 780, "y": 300 }
+    },
+    {
+      "id": "AVL-114",
+      "type": "Section",
+      "label": "AVL § 114",
+      "text": "Vähennystä ei saa tehdä, kun hankinta koskee: 1) verovelvollisen tai hänen henkilökuntansa asunnon ja työpaikan välistä kuljetusta; 2) edustusmenoja; 3) verovelvollisen tai hänen henkilökuntansa yksityistä käyttöä; tai 4) henkilöauton hankintaa, vuokrausta tai käyttöä, lukuun ottamatta 114 a §:ssä säädettyjä tapauksia.",
+      "aliases": "VAT deduction restrictions exclusions limitations passenger car private use representation entertainment commute home work edustusmenot yksityinen käyttö",
+      "authority": "law",
+      "position": { "x": 920, "y": 300 }
+    },
+    {
+      "id": "AVL-114a",
+      "type": "Section",
+      "label": "AVL § 114 a",
+      "text": "Henkilöauton hankinta-, vuokraus- ja käyttömenojen arvonlisävero on vähennyskelpoinen vain, jos henkilöauto on hankittu yksinomaan vähennykseen oikeuttavaan käyttöön — esimerkiksi myytäväksi tai vuokrattavaksi, taksiliikenteeseen tai ajo-opetukseen. Vähäinenkin yksityinen käyttö estää vähennyksen.",
+      "aliases": "passenger car henkilöauto VAT input deduction exclusive business taxi driving school rental no private use mixed use",
+      "authority": "law",
+      "position": { "x": 920, "y": 400 }
+    },
+    {
+      "id": "EVL-8",
+      "type": "Section",
+      "label": "EVL § 8",
+      "text": "Vähennyskelpoisia menoja ovat muun muassa henkilökunnan virkistyksestä, koulutuksesta ja muusta vastaavasta toiminnasta aiheutuneet kohtuulliset menot täysimääräisinä. Edustusmenoista vähennetään 50 prosenttia.",
+      "aliases": "EVL income tax business deductible expenses representation 50% staff welfare henkilökunta virkistys edustus elinkeinoverolaki",
+      "authority": "law",
+      "position": { "x": 700, "y": 210 }
+    },
+    {
+      "id": "DEF-ELINK",
+      "type": "Definition",
+      "label": "Elinkeinonharjoittaja",
+      "text": "Elinkeinonharjoittajalla tarkoitetaan henkilöä tai yhteisöä, joka itsenäisesti harjoittaa liiketoimintaa sen luonteesta, tarkoituksesta tai tuloksesta riippumatta.",
+      "aliases": "business taxable person entrepreneur independent commercial activity definition",
+      "authority": "law",
+      "position": { "x": 670, "y": 460 }
+    },
+    {
+      "id": "DEF-KTP",
+      "type": "Definition",
+      "label": "Kiinteä toimipaikka",
+      "text": "Kiinteällä toimipaikalla tarkoitetaan pysyvää liikepaikkaa, josta liiketoimintaa kokonaan tai osaksi harjoitetaan.",
+      "aliases": "fixed permanent establishment business location definition",
+      "authority": "law",
+      "position": { "x": 670, "y": 540 }
+    },
+    {
+      "id": "DEF-LV",
+      "type": "Definition",
+      "label": "Liikevaihto",
+      "text": "Liikevaihtoon luetaan verollisten myyntien sekä eräiden verottomien myyntien yhteismäärä ilman veron osuutta tilikauden aikana.",
+      "aliases": "turnover annual revenue sales total fiscal year definition",
+      "authority": "law",
+      "position": { "x": 670, "y": 620 }
+    },
+    {
+      "id": "DEF-HENKAUTO",
+      "type": "Definition",
+      "label": "Henkilöauto",
+      "text": "Henkilöautolla tarkoitetaan ajoneuvolainsäädännön mukaisesti rekisteröityä M1-luokan ajoneuvoa, joka on tarkoitettu henkilöiden kuljetukseen ja jossa on enintään kahdeksan istumapaikkaa kuljettajan lisäksi.",
+      "aliases": "passenger car M1 vehicle category transport people definition henkilöauto",
+      "authority": "law",
+      "position": { "x": 1080, "y": 360 }
+    },
+    {
+      "id": "DEF-PAKKARI",
+      "type": "Definition",
+      "label": "Pakettiauto",
+      "text": "Pakettiautolla tarkoitetaan N1-luokan tavaran kuljetukseen rakennettua ajoneuvoa, jonka kokonaismassa on enintään 3 500 kilogrammaa.",
+      "aliases": "van pakettiauto N1 vehicle category goods transport delivery definition",
+      "authority": "law",
+      "position": { "x": 1080, "y": 440 }
+    },
+    {
+      "id": "DEF-EDUSTUS",
+      "type": "Definition",
+      "label": "Edustusmenot",
+      "text": "Edustusmenoilla tarkoitetaan menoja, jotka kohdistuvat liike- tai elinkeinotoimintaan liittyvien suhteiden luomiseen, säilyttämiseen tai edistämiseen yrityksen ulkopuolisiin henkilöihin nähden.",
+      "aliases": "representation expenses entertainment client business relationships hospitality definition edustus",
+      "authority": "law",
+      "position": { "x": 880, "y": 510 }
+    },
+    {
+      "id": "DEF-HENKILOKUNTA",
+      "type": "Definition",
+      "label": "Henkilökuntakulut",
+      "text": "Henkilökuntakuluilla tarkoitetaan koko henkilökunnalle suunnattuja, tavanomaisia ja kohtuullisia virkistys-, kulttuuri- ja yhteistoimintatilaisuuksia, joiden tarkoitus on edistää työhyvinvointia.",
+      "aliases": "staff welfare expenses all employees recreation reasonable definition fully deductible henkilökunta virkistys",
+      "authority": "law",
+      "position": { "x": 880, "y": 580 }
+    },
+    {
+      "id": "OHJE-PALV-ULK",
+      "type": "VeroGuidance",
+      "label": "Palvelujen ulkomaankaupan ALV",
+      "text": "Elinkeinonharjoittajien välisessä palvelukaupassa pääsääntönä on, että palvelu verotetaan ostajan sijoittautumisvaltiossa. Suomalainen myyjä ei tällöin lisää laskuun Suomen arvonlisäveroa, vaan käyttää käännettyä verovelvollisuutta ja merkitsee laskuun esim. 'VAT 0 %, reverse charge, Art. 44 VAT Directive'.",
+      "aliases": "cross-border foreign services VAT reverse charge B2B Article 44 invoice invoicing consulting freelancer German Germany Finnish company abroad Vero guidance",
+      "authority": "guidance",
+      "position": { "x": 140, "y": 550 }
+    },
+    {
+      "id": "OHJE-PIENYRIT",
+      "type": "VeroGuidance",
+      "label": "Pienyrittäjän ALV",
+      "text": "Pienyrittäjä on vapautettu arvonlisäverovelvollisuudesta, jos tilikauden liikevaihto jää AVL 3 §:ssä säädetyn euromääräisen rajan alle. Vapautus on automaattinen, mutta yrittäjä voi hakeutua vapaaehtoisesti verovelvolliseksi.",
+      "aliases": "small business turnover threshold pienyrittäjä exemption liikevaihtoraja annual revenue limit",
+      "authority": "guidance",
+      "position": { "x": 280, "y": 580 }
+    },
+    {
+      "id": "OHJE-ALV-ILM",
+      "type": "VeroGuidance",
+      "label": "ALV-ilmoituksen antaminen",
+      "text": "ALV-ilmoitus annetaan OmaVero-palvelussa. Käännetyn verovelvollisuuden alaiset myynnit ilmoitetaan kohdassa 'palvelujen myynnit muihin EU-maihin'.",
+      "aliases": "VAT return filing OmaVero monthly quarterly reverse charge reporting Vero guidance",
+      "authority": "guidance",
+      "position": { "x": 420, "y": 610 }
+    },
+    {
+      "id": "OHJE-HENKAUTO-ALV",
+      "type": "VeroGuidance",
+      "label": "Henkilöautojen ALV-vähennys",
+      "text": "Verohallinnon ohje selventää AVL 114 ja 114 a §:n soveltamista: henkilöauton hankinnan tai käyttökulujen ALV ei ole vähennyskelpoinen, jos autoa käytetään edes vähäisessä määrin yksityisesti. Kodin ja vakituisen työpaikan välinen ajo katsotaan yksityiseksi käytöksi. Pakettiauton osalta vähennys voidaan jakaa käytön suhteessa, jos osa käytöstä on yksityistä.",
+      "aliases": "Vero guidance passenger car VAT input deduction private use commute van pakettiauto pro-rata mixed use rules driving log",
+      "authority": "guidance",
+      "position": { "x": 700, "y": 600 }
+    },
+    {
+      "id": "OHJE-EDUSTUS",
+      "type": "VeroGuidance",
+      "label": "Edustus- ja henkilökuntamenot",
+      "text": "Verohallinnon ohje erottelee edustusmenot, henkilökuntakulut ja yksityismenot. Edustusmenoista vähennetään tuloverotuksessa 50 % (EVL 8 §) ja ALV ei ole vähennyskelpoinen (AVL 114 §). Henkilökunnan virkistystilaisuudet, kun ne on järjestetty koko henkilökunnalle ja menot ovat kohtuullisia, ovat tuloverotuksessa täysimääräisesti ja ALV vähennyskelpoisia.",
+      "aliases": "Vero guidance representation expenses staff welfare classification entertainment client dinner party alcohol 50% rule edustus henkilökunta tuloverotus",
+      "authority": "guidance",
+      "position": { "x": 860, "y": 660 }
+    },
+    {
+      "id": "KHO-2019-42",
+      "type": "KHO_Decision",
+      "label": "KHO:2019:42",
+      "text": "Suomalainen yhtiö myi konsultointipalveluja saksalaiselle elinkeinonharjoittajalle. KHO katsoi, että palvelu oli myyty ostajan sijoittautumisvaltiossa ja että suomalainen myyjä ei ollut velvollinen suorittamaan Suomen arvonlisäveroa.",
+      "aliases": "Finnish consulting German Germany business reverse charge B2B court ruling Supreme Administrative Court case 2019 freelancer invoice cross-border",
+      "authority": "case",
+      "position": { "x": 120, "y": 100 }
+    },
+    {
+      "id": "KHO-2021-108",
+      "type": "KHO_Decision",
+      "label": "KHO:2021:108",
+      "text": "Liikevaihdon laskennassa otetaan huomioon kaikki tilikauden myynnit ennen veron vähentämistä. Satunnaisia luovutuksia ei lasketa mukaan.",
+      "aliases": "turnover calculation small business threshold Supreme Administrative Court ruling case 2021",
+      "authority": "case",
+      "position": { "x": 260, "y": 100 }
+    },
+    {
+      "id": "KHO-2017-31",
+      "type": "KHO_Decision",
+      "label": "KHO:2017:31",
+      "text": "Pakettiauto, jolla suoritettiin pääosin tavarankuljetuksia, mutta jolla myös ajettiin kuljettajan asunnon ja työpaikan välillä. KHO katsoi, että vähennyksestä on tehtävä yksityiskäyttöä vastaava osuus, mutta täysimääräinen vähennysoikeuden epääminen ei ollut perusteltua.",
+      "aliases": "KHO 2017 van pakettiauto mixed business private use commute home work deduction pro-rata case",
+      "authority": "case",
+      "position": { "x": 400, "y": 80 }
+    },
+    {
+      "id": "KHO-2018-91",
+      "type": "KHO_Decision",
+      "label": "KHO:2018:91",
+      "text": "Yhtiö järjesti vuosittaisen pikkujoulun koko henkilökunnalle ravintolassa. KHO katsoi, että tilaisuus oli luonteeltaan henkilökunnan virkistystä eikä edustusta, vaikka osallistujille tarjottiin myös alkoholia, ja kulut olivat täysimääräisesti vähennyskelpoisia.",
+      "aliases": "KHO 2018 staff party Christmas pikkujoulu welfare not representation alcohol fully deductible classification case",
+      "authority": "case",
+      "position": { "x": 540, "y": 80 }
+    },
+    {
+      "id": "EU-VAT-44",
+      "type": "EUDirective",
+      "label": "VAT Directive Art. 44",
+      "text": "Place of supply of services to a taxable person acting as such shall be the place where that person has established his business.",
+      "aliases": "Article 44 EU VAT Directive 2006/112 place of supply taxable person B2B",
+      "authority": "directive",
+      "position": { "x": 760, "y": 100 }
+    },
+    {
+      "id": "EU-VAT-282",
+      "type": "EUDirective",
+      "label": "VAT Directive Art. 282",
+      "text": "Member States may exempt from VAT supplies of goods and services by small enterprises whose annual turnover does not exceed a threshold.",
+      "aliases": "Article 282 EU VAT Directive 2006/112 small enterprise threshold exemption",
+      "authority": "directive",
+      "position": { "x": 900, "y": 100 }
+    },
+    {
+      "id": "EU-VAT-176",
+      "type": "EUDirective",
+      "label": "VAT Directive Art. 176",
+      "text": "Member States may retain the exclusions from the right of deduction that existed at accession, in particular for expenditure not of a strictly business nature such as luxury, entertainment, and amusements.",
+      "aliases": "Article 176 EU VAT Directive 2006/112 deduction exclusions entertainment luxury representation private use",
+      "authority": "directive",
+      "position": { "x": 1040, "y": 100 }
+    },
+    {
+      "id": "FORM-ALV",
+      "type": "Form",
+      "label": "ALV-ilmoitus",
+      "text": "Kuukausi- tai neljännesvuosittain annettava arvonlisäveroilmoitus OmaVero-palvelussa.",
+      "aliases": "VAT return form OmaVero filing monthly quarterly",
+      "authority": "guidance",
+      "position": { "x": 560, "y": 620 }
+    },
+    {
+      "id": "HE-142-2026",
+      "type": "Amendment",
+      "label": "HE 142/2026",
+      "text": "Hallituksen esitys eduskunnalle laeiksi arvonlisäverolain 3 §:n muuttamisesta. Pienyrittäjän verovelvollisuuden alaraja ehdotetaan korotettavaksi 15 000 eurosta 20 000 euroon. Voimaan 1.7.2026.",
+      "aliases": "amendment government proposal VAT threshold raise 20000 euros 2026",
+      "authority": "proposal",
+      "position": { "x": 490, "y": 60 },
+      "hidden": true
+    }
+  ],
+  "edges": [
+    { "id": "e1",  "source": "AVL", "target": "AVL-1",   "type": "CONTAINS" },
+    { "id": "e2",  "source": "AVL", "target": "AVL-2",   "type": "CONTAINS" },
+    { "id": "e3",  "source": "AVL", "target": "AVL-3",   "type": "CONTAINS" },
+    { "id": "e4",  "source": "AVL", "target": "AVL-63",  "type": "CONTAINS" },
+    { "id": "e5",  "source": "AVL", "target": "AVL-65",  "type": "CONTAINS" },
+    { "id": "e6",  "source": "AVL", "target": "AVL-66",  "type": "CONTAINS" },
+    { "id": "e7",  "source": "AVL", "target": "AVL-69",  "type": "CONTAINS" },
+    { "id": "e8",  "source": "AVL", "target": "AVL-102", "type": "CONTAINS" },
+    { "id": "e9",  "source": "AVL", "target": "AVL-114", "type": "CONTAINS" },
+    { "id": "e10", "source": "AVL", "target": "AVL-114a","type": "CONTAINS" },
+
+    { "id": "e11", "source": "AVL-3",   "target": "AVL-1",  "type": "EXCEPTION_TO" },
+    { "id": "e12", "source": "AVL-65",  "target": "AVL-1",  "type": "EXCEPTION_TO" },
+    { "id": "e13", "source": "AVL-66",  "target": "AVL-65", "type": "EXCEPTION_TO" },
+    { "id": "e14", "source": "AVL-69",  "target": "AVL-65", "type": "EXCEPTION_TO" },
+    { "id": "e15", "source": "AVL-114", "target": "AVL-102","type": "EXCEPTION_TO" },
+    { "id": "e16", "source": "AVL-114a","target": "AVL-114","type": "EXCEPTION_TO" },
+
+    { "id": "e17", "source": "AVL-2",  "target": "AVL-1",  "type": "CITES" },
+    { "id": "e18", "source": "AVL-65", "target": "AVL-63", "type": "CITES" },
+    { "id": "e19", "source": "AVL-3",  "target": "AVL-2",  "type": "CITES" },
+
+    { "id": "e20", "source": "AVL-65",  "target": "DEF-ELINK",       "type": "USES_DEFINITION" },
+    { "id": "e21", "source": "AVL-65",  "target": "DEF-KTP",         "type": "USES_DEFINITION" },
+    { "id": "e22", "source": "AVL-66",  "target": "DEF-KTP",         "type": "USES_DEFINITION" },
+    { "id": "e23", "source": "AVL-69",  "target": "DEF-ELINK",       "type": "USES_DEFINITION" },
+    { "id": "e24", "source": "AVL-3",   "target": "DEF-LV",          "type": "USES_DEFINITION" },
+    { "id": "e25", "source": "AVL-2",   "target": "DEF-ELINK",       "type": "USES_DEFINITION" },
+    { "id": "e26", "source": "AVL-114a","target": "DEF-HENKAUTO",    "type": "USES_DEFINITION" },
+    { "id": "e27", "source": "AVL-114", "target": "DEF-EDUSTUS",     "type": "USES_DEFINITION" },
+    { "id": "e28", "source": "EVL-8",   "target": "DEF-EDUSTUS",     "type": "USES_DEFINITION" },
+    { "id": "e29", "source": "EVL-8",   "target": "DEF-HENKILOKUNTA","type": "USES_DEFINITION" },
+
+    { "id": "e30", "source": "OHJE-PALV-ULK",    "target": "AVL-65",          "type": "INTERPRETS" },
+    { "id": "e31", "source": "OHJE-PALV-ULK",    "target": "AVL-66",          "type": "INTERPRETS" },
+    { "id": "e32", "source": "OHJE-PALV-ULK",    "target": "DEF-ELINK",       "type": "INTERPRETS" },
+    { "id": "e33", "source": "OHJE-PIENYRIT",    "target": "AVL-3",           "type": "INTERPRETS" },
+    { "id": "e34", "source": "OHJE-PIENYRIT",    "target": "DEF-LV",          "type": "INTERPRETS" },
+    { "id": "e35", "source": "OHJE-ALV-ILM",     "target": "AVL-1",           "type": "INTERPRETS" },
+    { "id": "e36", "source": "OHJE-ALV-ILM",     "target": "AVL-65",          "type": "INTERPRETS" },
+    { "id": "e37", "source": "OHJE-ALV-ILM",     "target": "FORM-ALV",        "type": "INTERPRETS" },
+    { "id": "e38", "source": "OHJE-HENKAUTO-ALV","target": "AVL-114a",        "type": "INTERPRETS" },
+    { "id": "e39", "source": "OHJE-HENKAUTO-ALV","target": "AVL-114",         "type": "INTERPRETS" },
+    { "id": "e40", "source": "OHJE-HENKAUTO-ALV","target": "DEF-HENKAUTO",    "type": "INTERPRETS" },
+    { "id": "e41", "source": "OHJE-HENKAUTO-ALV","target": "DEF-PAKKARI",     "type": "INTERPRETS" },
+    { "id": "e42", "source": "OHJE-EDUSTUS",     "target": "EVL-8",           "type": "INTERPRETS" },
+    { "id": "e43", "source": "OHJE-EDUSTUS",     "target": "AVL-114",         "type": "INTERPRETS" },
+    { "id": "e44", "source": "OHJE-EDUSTUS",     "target": "DEF-EDUSTUS",     "type": "INTERPRETS" },
+    { "id": "e45", "source": "OHJE-EDUSTUS",     "target": "DEF-HENKILOKUNTA","type": "INTERPRETS" },
+
+    { "id": "e46", "source": "KHO-2019-42",  "target": "AVL-65",          "type": "RULED_ON" },
+    { "id": "e47", "source": "KHO-2019-42",  "target": "DEF-ELINK",       "type": "RULED_ON" },
+    { "id": "e48", "source": "KHO-2021-108", "target": "AVL-3",           "type": "RULED_ON" },
+    { "id": "e49", "source": "KHO-2021-108", "target": "DEF-LV",          "type": "RULED_ON" },
+    { "id": "e50", "source": "KHO-2017-31",  "target": "AVL-114",         "type": "RULED_ON" },
+    { "id": "e51", "source": "KHO-2017-31",  "target": "DEF-PAKKARI",     "type": "RULED_ON" },
+    { "id": "e52", "source": "KHO-2018-91",  "target": "EVL-8",           "type": "RULED_ON" },
+    { "id": "e53", "source": "KHO-2018-91",  "target": "DEF-HENKILOKUNTA","type": "RULED_ON" },
+    { "id": "e54", "source": "KHO-2018-91",  "target": "DEF-EDUSTUS",     "type": "RULED_ON" },
+
+    { "id": "e55", "source": "AVL-1",   "target": "EU-VAT-44",  "type": "IMPLEMENTS" },
+    { "id": "e56", "source": "AVL-65",  "target": "EU-VAT-44",  "type": "IMPLEMENTS" },
+    { "id": "e57", "source": "AVL-3",   "target": "EU-VAT-282", "type": "IMPLEMENTS" },
+    { "id": "e58", "source": "AVL-114", "target": "EU-VAT-176", "type": "IMPLEMENTS" },
+
+    { "id": "e59", "source": "AVL-1",  "target": "FORM-ALV", "type": "APPLIES_TO_FORM" },
+    { "id": "e60", "source": "AVL-65", "target": "FORM-ALV", "type": "APPLIES_TO_FORM" },
+
+    { "id": "e61", "source": "HE-142-2026", "target": "AVL-3", "type": "AMENDS",     "hidden": true },
+    { "id": "e62", "source": "AVL-3-v2",    "target": "AVL-3", "type": "SUPERSEDES", "hidden": true }
+  ]
+}
